@@ -1,0 +1,27 @@
+GIT
+  remote: git://github.com/aoitaku/quincite.git
+  revision: e26cc0d6cb6436d3edc970235b35980524717174
+  specs:
+    quincite (0.1.0)
+
+GIT
+  remote: git://github.com/aoitaku/unicode-line_break.git
+  revision: 25f5076a0ab48418881f29bf10fc905dcb8fb02b
+  specs:
+    unicode-line_break (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gosu (0.10.7-x86-mingw32)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  gosu
+  quincite!
+  unicode-line_break!
+
+BUNDLED WITH
+   1.12.4
